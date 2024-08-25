@@ -14,6 +14,7 @@ mkdir dir1 dir2 dir3 dir4 dir5
 ls
 # 3. Create 5 text files in dir2 named file1.txt, file2.txt, file3.txt, file4.txt, and file5.txt
 cd dir2
+
 touch file1.txt
 touch file2.txt
 touch file3.txt
