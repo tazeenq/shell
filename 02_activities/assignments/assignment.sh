@@ -8,7 +8,6 @@ set -x
 # > Add your code below each comment to complete the tasks
 
 # 1. Create 5 directories named dir1, dir2, dir3, dir4, and dir5
-cd Desktop
 mkdir dir1 dir2 dir3 dir4 dir5
 # 2. List the contents of the current working directory to verify the presence of the 5 directories
 ls
@@ -23,4 +22,5 @@ rm dir2/file4.txt
 # 7. Delete directories dir4 and dir5 including all their contents (if any)
 rm -r ../dir4 ../dir5
 # 8. List the contents of the current working directory to verify the deletion of dir4 and dir5
-ls Desktop
+cd ..
+ls
